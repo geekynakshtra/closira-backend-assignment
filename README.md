@@ -289,9 +289,18 @@ sample_requests.http
 
 Screenshots:
 
-> Swagger documentation
-> API responses
-> Terminal logs
+## Swagger Documentation
+![Swagger Docs](assets/swagger_docs.png)
+
+---
+
+## Terminal Logs
+![Terminal Logs](assets/terminal_logs.png)
+
+---
+
+## Example API Response
+![API Response](assets/api_response.png)
 
 
 Video Walkthrough
