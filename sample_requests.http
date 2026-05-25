@@ -1,0 +1,36 @@
+### Health Check
+GET http://127.0.0.1:8000/health
+
+
+### Create Enquiry
+POST http://127.0.0.1:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "Sarah Johnson",
+  "channel": "whatsapp",
+  "message": "Need pricing details"
+}
+
+
+### Schedule Follow-up
+POST http://127.0.0.1:8000/enquiry/REPLACE_ID/follow-up
+Content-Type: application/json
+
+{
+  "delay_minutes": 30,
+  "message_template": "Following up on your enquiry"
+}
+
+
+### Escalate Enquiry
+POST http://127.0.0.1:8000/enquiry/REPLACE_ID/escalate
+Content-Type: application/json
+
+{
+  "reason": "Customer requested manager"
+}
+
+
+### Get History
+GET http://127.0.0.1:8000/enquiry/REPLACE_ID/history

@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+closira.db
+.env
+.DS_Store
+.idea/
